@@ -1,0 +1,15 @@
+{
+  "name": "sumisura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./build"
+  },
+  "author": "",
+  "license": "ISC"
+}

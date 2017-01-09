@@ -1,8 +1,40 @@
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("/fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("/fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("/fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("/fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("/fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("/fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("/fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("/fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("/fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 html { margin:0;padding:0; }
 body {
 	-webkit-text-size-adjust: 100%;
 	color: #333;
-	font-family: 'PT Sans', sans-serif;
+	font-family: "SegoeUIRegular", sans-serif;
 	font-size: 16px;  
 	line-height: 1.2;
 	font-weight: 400;
@@ -12,7 +44,7 @@ body {
     padding: 0 10px;
     position: relative;
     width: 100%;
-    max-width: 1160px;
+    max-width: 1440px;
     min-width: 940px;
 	box-sizing: border-box;
 }	 
@@ -71,10 +103,10 @@ body {
 .semiopacity { opacity: 0.7; -moz-opacity: 0.7; }
 .nowrap {white-space: nowrap;}
 .linethrough { text-decoration: line-through;}
+.up { text-transform: uppercase; }
 
-.b200 { font-weight: 200;}
-.b400 { font-weight: 400;}
-.b600 { font-weight: 600;}
+.b { font-weight: normal; font-family: "SegoeUIBold";}
+.sb { font-weight: normal; font-family: "SegoeUISemiBold";}
 
 
 .block {display: block !important;}
@@ -97,6 +129,16 @@ h5, .h5 {font-size: 16px;}
 h6, .h6 {font-size: 16px;}
 h1, h2, h3, .h1, .h2, .h3 {margin-bottom: 15px;}
 h4, h5, h6, .h4, .h5, .h6 {margin-bottom: 10px;}
+
+
+.font36 { font-size: 36px; }
+.font48 { font-size: 48px; }
+
+.mgt0 {margin-top: 0 !important;} .mgt5 {margin-top: 5px !important;} .mgt10 {margin-top: 10px !important;} .mgt15 {margin-top: 15px !important;} .mgt20 {margin-top: 20px !important;} .mgt25 {margin-top: 25px !important;} .mgt30 {margin-top: 30px !important;} .mgt35 {margin-top: 35px !important;} .mgt40 {margin-top: 40px !important;} .mgt45 {margin-top: 45px !important;} .mgt50 {margin-top: 50px !important;} .mgt70 {margin-top: 70px !important;} .mgt75 {margin-top: 75px !important;} .mgt80 {margin-top: 80px !important;} .mgt85 {margin-top: 85px !important;} .mgb0 {margin-bottom: 0px !important;}
+.mgb5 {margin-bottom: 5px !important;} .mgb10 {margin-bottom: 10px !important;} .mgb15 {margin-bottom: 15px !important;} .mgb20 {margin-bottom: 20px !important;} .mgb25 {margin-bottom: 25px !important;} .mgb30 {margin-bottom: 30px !important;} .mgb35 {margin-bottom: 35px !important;} .mgb40 {margin-bottom: 40px !important;} .mgb45 {margin-bottom: 45px !important;} .mgb50 {margin-bottom: 50px !important;} .mgb55 {margin-bottom: 55px !important;} .mgb60 {margin-bottom: 60px !important;} .mgb65 {margin-bottom: 65px !important;} .mgb70 {margin-bottom: 70px !important;} .mgb95 {margin-bottom: 95px !important;} 
+.mgr0 {margin-right: 0 !important;} .mgr5 {margin-right: 5px !important;} .mgr10 {margin-right: 10px !important;} .mgr15 {margin-right: 15px !important;} .mgr20 {margin-right: 20px !important;} .mgr25 {margin-right: 25px !important;} .mgr30 {margin-right: 30px !important;} .mgr35 {margin-right: 35px !important;} .mgr40 {margin-right: 40px !important;} .mgr45 {margin-right: 45px !important;} .mgr50 {margin-right: 50px !important;} .mgr55 {margin-right: 55px !important;} .mgr60 {margin-right: 60px !important;} 
+.mgl5 {margin-left: 5px !important;} .mgl10 {margin-left: 10px !important;} .mgl15 {margin-left: 15px !important;} .mgl20 {margin-left: 20px !important;} .mgl25 {margin-left: 25px !important;} .mgl30 {margin-left: 30px !important;} .mgl35 {margin-left: 35px !important;} .mgl40 {margin-left: 40px !important;} .mgl45 {margin-left: 45px !important;} .mgl50 {margin-left: 50px !important;}
+
 
 select { background-color: #fff; border: 1px solid #efefef;}
 input[type=checkbox] { margin: -2px 4px 0 0;}
@@ -122,7 +164,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 .yellow_bl { color: #000; padding: 45px 0; background-color: #ffc20e;}
 .black_bl { color: #fff; padding: 45px 0; background-color: #000;}
 
-.block_header { font-size: 48px; text-transform: uppercase; text-align: center; line-height: 1;}
+.block_header { font-size: 48px; text-transform: uppercase; text-align: center; line-height: 1; font-family: "SegoeUIBold";}
 
 .form_wrap {  }
 
@@ -131,24 +173,25 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 .block_2 .yellow_bl { padding: 100px 0; }
 .block_2_item { text-align: center;}
 .block_2_item__img { margin-bottom: 40px;}
-.block_2_item__title { font-size: 24px; text-transform: uppercase; }
+.block_2_item__title { font-size: 24px; text-transform: uppercase; font-family: "SegoeUIBold";}
 
 
 
+.block_3 .white_bl { padding: 75px 0; }
 
 
-
-
-
+.block_4 .black_bl { background: url(/img/block_4__back.png) no-repeat scroll center 25px #000; padding: 60px 0; min-height: 630px;}
 .block_4 .block_header { margin-bottom: 35px; }
-.block_4__text { font-size: 40px; line-height: 1.6; text-align: center; text-transform: uppercase;}
+.block_4__text { font-size: 40px; line-height: 1.8; text-align: center; text-transform: uppercase;}
+
+
 
 
 .block_5 .yellow_bl { padding: 100px 0; }
 .block_5 .block_header { margin-bottom: 95px; }
 .block_5_item { text-align: center;}
 .block_5_item__img { margin-bottom: 40px;}
-.block_5_item__title { font-size: 18px; text-transform: uppercase; }
+.block_5_item__title { font-size: 18px; text-transform: uppercase; font-family: "SegoeUIBold";}
 
 
 
